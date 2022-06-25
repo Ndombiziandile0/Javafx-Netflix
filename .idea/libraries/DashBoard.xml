@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="DashBoard">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/DashBoard.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

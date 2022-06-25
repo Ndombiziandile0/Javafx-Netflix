@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="713.0" prefWidth="1219.0" style="-fx-background-color: #000;" stylesheets="@custom.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dashboard.SeriesController">
+     <children>
+      <Label layoutX="19.0" layoutY="17.0" prefHeight="29.0" prefWidth="207.0" style="-fx-font-size: 20; -fx-font-weight: bold; -fx-text-fill: #7387A8;" text="Series" textFill="#f8f4f4" />
+      <Separator layoutX="3.0" layoutY="55.0" prefHeight="4.0" prefWidth="1213.0" />
+      <VBox layoutX="38.0" layoutY="84.0" prefHeight="564.0" prefWidth="1164.0" spacing="50.0" style="-fx-background-color: #0000;">
+         <children>
+            <HBox prefHeight="300.0" prefWidth="1164.0" spacing="16.0">
+               <children>
+                  <Pane prefHeight="300.0" prefWidth="185.0" style="-fx-background-color: #000; -fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0, 0.15), 6.0, 0.7, 0.0,1.5);">
+                     <children>
+                        <Pane layoutX="4.0" layoutY="273.0" prefHeight="27.0" prefWidth="180.0" style="-fx-background-color: #000;">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="33.0" layoutY="1.0" prefHeight="25.0" prefWidth="114.0" style="-fx-font-size: 16; -fx-font-weight: bold; -fx-text-fill: #F0F0F0;" text="FIRST KILL" />
+                           </children>
+                        </Pane>
+                        <VBox layoutX="-6.0" layoutY="1.0" prefHeight="250.0" prefWidth="240.0">
+                           <children>
+                              <ImageView id="ser1" fx:id="ser1" fitHeight="256.0" fitWidth="187.0" onMouseClicked="#handlesir1" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../img/s1.jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="300.0" prefWidth="192.0" style="-fx-background-color: #000; -fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0, 0.15), 6.0, 0.7, 0.0,1.5);">
+                     <children>
+                        <Pane layoutX="1.0" layoutY="273.0" prefHeight="27.0" prefWidth="180.0" style="-fx-background-color: #000;">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="13.0" layoutY="1.0" prefHeight="20.0" prefWidth="155.0" style="-fx-font-size: 16; -fx-font-weight: bold; -fx-text-fill: #F0F0F0;" text="WALKING DEAD" />
+                           </children>
+                        </Pane>
+                        <VBox layoutY="5.0" prefHeight="267.0" prefWidth="185.0" style="-fx-background-color: #000;">
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                           <children>
+                              <ImageView fx:id="sir2" fitHeight="267.0" fitWidth="300.0" onMouseClicked="#handlesir2" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../img/s2.jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </VBox>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="300.0" prefWidth="196.0" style="-fx-background-color: #000; -fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0, 0.15), 6.0, 0.7, 0.0,1.5);">
+                     <children>
+                        <Pane layoutY="273.0" prefHeight="27.0" prefWidth="196.0" style="-fx-background-color: #000;">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="21.0" layoutY="1.0" prefHeight="20.0" prefWidth="155.0" style="-fx-font-size: 16; -fx-font-weight: bold; -fx-text-fill: #F0F0F0;" text="YOU" />
+                           </children>
+                        </Pane>
+                        <VBox layoutX="1.0" layoutY="2.0" prefHeight="268.0" prefWidth="179.0">
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                           <children>
+                              <ImageView fx:id="sir3" fitHeight="269.0" fitWidth="206.0" onMouseClicked="#handlesir3" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../img/s3.jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </VBox>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="300.0" prefWidth="192.0" style="-fx-background-color: #00; -fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0, 0.15), 6.0, 0.7, 0.0,1.5);">
+                     <children>
+                        <Pane layoutY="273.0" prefHeight="27.0" prefWidth="196.0" style="-fx-background-color: #000;">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="30.0" layoutY="1.0" prefHeight="25.0" prefWidth="137.0" style="-fx-font-size: 16; -fx-font-weight: bold; -fx-text-fill: #F0F0F0;" text="SEX/LIFE" />
+                           </children>
+                        </Pane>
+                        <VBox layoutX="3.0" layoutY="-1.0" prefHeight="278.0" prefWidth="226.0">
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                           <children>
+                              <ImageView fx:id="sir4" fitHeight="266.0" fitWidth="201.0" onMouseClicked="#handlesir4" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../img/s4.jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </VBox>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="300.0" prefWidth="192.0" style="-fx-background-color: #000; -fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0, 0.15), 6.0, 0.7, 0.0,1.5);">
+                     <children>
+                        <Pane layoutY="273.0" prefHeight="27.0" prefWidth="196.0" style="-fx-background-color: #000;" />
+                        <VBox layoutX="-4.0" layoutY="-1.0" prefHeight="249.0" prefWidth="169.0">
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                  </Pane>
+               </children>
+            </HBox>
+            <HBox prefHeight="300.0" prefWidth="1164.0" spacing="16.0">
+               <children>
+                  <Pane prefHeight="300.0" prefWidth="185.0" style="-fx-background-color: #000; -fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0, 0.15), 6.0, 0.7, 0.0,1.5);">
+                     <children>
+                        <Pane layoutX="4.0" layoutY="273.0" prefHeight="27.0" prefWidth="180.0" style="-fx-background-color: #000;">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="33.0" layoutY="1.0" prefHeight="25.0" prefWidth="114.0" style="-fx-font-size: 16; -fx-font-weight: bold; -fx-text-fill: #F0F0F0;" text="FLASH" />
+                           </children>
+                        </Pane>
+                        <VBox layoutX="-6.0" layoutY="1.0" prefHeight="250.0" prefWidth="240.0">
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                           <children>
+                              <ImageView fx:id="sir5" fitHeight="264.0" fitWidth="181.0" onMouseClicked="#handlesir5" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../img/s6.jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </VBox>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="300.0" prefWidth="192.0" style="-fx-background-color: #000; -fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0, 0.15), 6.0, 0.7, 0.0,1.5);">
+                     <children>
+                        <Pane layoutX="1.0" layoutY="273.0" prefHeight="27.0" prefWidth="180.0" style="-fx-background-color: #000;">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="45.0" layoutY="1.0" prefHeight="20.0" prefWidth="155.0" style="-fx-font-size: 16; -fx-font-weight: bold; -fx-text-fill: #F0F0F0;" text="FANTASY ISLAND" />
+                           </children>
+                        </Pane>
+                        <VBox layoutY="5.0" prefHeight="267.0" prefWidth="185.0" style="-fx-background-color: #000;">
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                           <children>
+                              <ImageView fx:id="sir6" fitHeight="267.0" fitWidth="300.0" onMouseClicked="#handlesir6" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../img/image6.jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </VBox>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="300.0" prefWidth="196.0" style="-fx-background-color: #000; -fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0, 0.15), 6.0, 0.7, 0.0,1.5);">
+                     <children>
+                        <Pane layoutY="273.0" prefHeight="27.0" prefWidth="196.0" style="-fx-background-color: #000;">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="21.0" layoutY="1.0" prefHeight="20.0" prefWidth="155.0" style="-fx-font-size: 16; -fx-font-weight: bold; -fx-text-fill: #F0F0F0;" text="FANRASY ISLAND" />
+                           </children>
+                        </Pane>
+                        <VBox layoutX="1.0" layoutY="2.0" prefHeight="268.0" prefWidth="179.0">
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                           <children>
+                              <ImageView fx:id="sir7" fitHeight="269.0" fitWidth="206.0" onMouseClicked="#handlesir7" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../img/image7.jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </VBox>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="300.0" prefWidth="192.0" style="-fx-background-color: #00; -fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0, 0.15), 6.0, 0.7, 0.0,1.5);">
+                     <children>
+                        <Pane layoutY="273.0" prefHeight="27.0" prefWidth="196.0" style="-fx-background-color: #000;">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="30.0" layoutY="1.0" prefHeight="25.0" prefWidth="137.0" style="-fx-font-size: 16; -fx-font-weight: bold; -fx-text-fill: #F0F0F0;" text="STAR WARS" />
+                           </children>
+                        </Pane>
+                        <VBox layoutX="3.0" layoutY="-1.0" prefHeight="278.0" prefWidth="226.0">
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                           <children>
+                              <ImageView fx:id="sir8" fitHeight="266.0" fitWidth="201.0" onMouseClicked="#handlesir18" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../img/image1.jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </VBox>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="300.0" prefWidth="192.0" style="-fx-background-color: #000; -fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0, 0.15), 6.0, 0.7, 0.0,1.5);">
+                     <children>
+                        <Pane layoutY="273.0" prefHeight="27.0" prefWidth="196.0" style="-fx-background-color: #000;" />
+                        <VBox layoutX="-4.0" layoutY="-1.0" prefHeight="249.0" prefWidth="169.0">
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                  </Pane>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      
+   </children>
+</AnchorPane>
